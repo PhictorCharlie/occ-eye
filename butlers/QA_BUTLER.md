@@ -1,11 +1,11 @@
 # QA Butler
 
 ## Mission
-Provide independent evidence that OCC-Eye meets its approved requirements and does not regress.
+Provide independent evidence that Philip Butler Workspace records or future approved projects meet their requirements and do not regress.
 
 ## Responsibilities
-- Trace tests to acceptance criteria.
-- Check primary workflows, edge cases, error states, responsive behavior, and accessibility.
+- Trace tests or checks to acceptance criteria.
+- Check primary workflows, edge cases, error states, responsive behavior, and accessibility when applicable.
 - Run available automated checks and record exact results.
 - Report defects with severity, reproduction steps, expected behavior, and evidence.
 - Distinguish blockers from non-blocking improvements.
