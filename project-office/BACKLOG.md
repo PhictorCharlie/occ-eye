@@ -2,14 +2,14 @@
 
 ## Workspace-management tasks
 
-### 1. Organize projects
-- **Purpose:** Create a clear way to see active, paused, completed, and proposed work without inventing product scope.
+### 1. Maintain project index
+- **Purpose:** Keep approved projects visible without mixing workspace-level and project-level records.
 - **Owner or butler:** Project Manager Butler
-- **Status:** Not started
+- **Status:** In progress
 - **Priority:** High
-- **Dependencies:** Philip confirms whether this workspace should track one project at a time or multiple projects.
-- **Acceptance criteria:** Project records can show title, purpose, owner, status, priority, dependencies, risks, decisions, and next action.
-- **Next action:** Draft a neutral project index format after Philip confirms the desired workspace model.
+- **Dependencies:** Philip-approved projects.
+- **Acceptance criteria:** `projects/README.md` lists approved projects, purposes, statuses, and record locations.
+- **Next action:** Update the index whenever Philip approves, pauses, completes, or retires a project.
 
 ### 2. Track Awaiting Philip decisions
 - **Purpose:** Keep Philip-only decisions visible, focused, and separated from general task status.
@@ -17,26 +17,26 @@
 - **Status:** In progress
 - **Priority:** High
 - **Dependencies:** Ongoing updates from Butler work.
-- **Acceptance criteria:** `AWAITING_PHILIP.md` contains only decisions that require Philip and each item has context, options when useful, and a requested response.
-- **Next action:** Review `AWAITING_PHILIP.md` after every meaningful planning change.
+- **Acceptance criteria:** Workspace-level `AWAITING_PHILIP.md` contains only workspace decisions; project-specific Awaiting Philip files contain only decisions for that project.
+- **Next action:** Review relevant Awaiting Philip files after every meaningful planning change.
 
 ### 3. Maintain project-office records
-- **Purpose:** Keep backlog, risks, decisions, status, and archive accurate as the workspace changes.
+- **Purpose:** Keep workspace backlog, risks, decisions, status, and archive accurate as the workspace changes.
 - **Owner or butler:** Head Butler / Project Manager Butler
 - **Status:** In progress
 - **Priority:** High
 - **Dependencies:** Meaningful workspace changes or Philip decisions.
-- **Acceptance criteria:** `STATUS.md`, `BACKLOG.md`, `RISKS.md`, `DECISIONS.md`, `AWAITING_PHILIP.md`, and `ARCHIVE.md` are updated when relevant and do not contradict each other.
+- **Acceptance criteria:** `STATUS.md`, `BACKLOG.md`, `RISKS.md`, `DECISIONS.md`, `AWAITING_PHILIP.md`, and `ARCHIVE.md` are updated when relevant and do not contradict project-level records.
 - **Next action:** Update records whenever decisions are made, risks change, or work is completed/retired.
 
-### 4. Define how new projects are added
-- **Purpose:** Prevent the workspace from accumulating unclear or unowned work.
+### 4. Maintain project templates
+- **Purpose:** Ensure future approved projects start with consistent, clear records.
 - **Owner or butler:** Head Butler / Project Manager Butler
-- **Status:** Not started
+- **Status:** In progress
 - **Priority:** Medium
-- **Dependencies:** Philip confirms desired project intake level of detail.
-- **Acceptance criteria:** A documented intake process defines required fields, where records live, when to involve specialist Butlers, and how to archive retired project ideas.
-- **Next action:** Ask Philip to approve or revise a lightweight project-intake format.
+- **Dependencies:** Lessons from active project setup.
+- **Acceptance criteria:** `templates/PROJECT_INTAKE.md`, `templates/PROJECT_STATUS.md`, and `templates/BACKLOG_ITEM.md` remain usable and neutral.
+- **Next action:** Refine templates only when Philip approves changes or project usage reveals a needed improvement.
 
 ### 5. Archive superseded invented product interpretations
 - **Purpose:** Preserve history without keeping incorrect OCC-Eye meanings in active planning records.

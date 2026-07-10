@@ -1,25 +1,35 @@
 # Philip Butler Workspace Status
 
 ## Current phase
-Documentation correction and workspace reframing. The repository is being treated as a neutral Butler and project-office workspace, not an application project.
+Multi-project workspace setup. The repository is a neutral Butler and project-office workspace with one approved project now being added.
+
+## Workspace-level scope
+This file tracks workspace-level status across Philip Butler Workspace. Project-specific status belongs in each `projects/<project-slug>/STATUS.md` file.
 
 ## What is known
 - `occ-eye` is a legacy repository name with no confirmed product meaning.
 - Philip does not remember creating or naming OCC-Eye.
 - OCC-Eye was never an app idea.
-- The working title for project documentation is “Philip Butler Workspace.”
+- The working title for workspace documentation is “Philip Butler Workspace.”
 - The repository should preserve Butler role files and the `project-office/` structure.
 - Current work should be documentation-only.
+- Philip approved the first project: Job Search and Resume Operations.
+- Project-specific records for approved projects should live under `projects/`.
+- Workspace-level records remain in `project-office/`.
+
+## Active projects
+| Project | Status | Record location |
+| --- | --- | --- |
+| Job Search and Resume Operations | Approved; project records created | `projects/job-search-resume-operations/` |
 
 ## What is unknown
 - Whether Philip wants to rename the repository, leave the legacy repository name in place, or create a separate workspace repository later.
-- Whether the workspace should remain single-purpose or become a multi-project tracking system.
-- What exact intake format Philip wants for adding new projects.
+- What exact long-term review cadence Philip wants for workspace-level and project-level records.
 - Whether any future application project will be created from this workspace.
 
 ## Recommended specialist sequence
-1. Head Butler: coordinate the documentation correction and ensure invented product meanings are removed.
-2. Project Manager Butler: keep status, backlog, decisions, risks, Awaiting Philip, and archive records current.
+1. Head Butler: coordinate workspace/project separation and ensure invented product meanings are not introduced.
+2. Project Manager Butler: keep workspace and project records current while separating workspace-level and project-level status.
 3. Product Butler: use only if Philip later defines a specific product or app idea.
 4. Development Butler: use only after Philip approves a code-producing project.
 5. Formatting Butler: use only for presentation updates to documents or an approved user-facing interface.
@@ -27,10 +37,10 @@ Documentation correction and workspace reframing. The repository is being treate
 
 ## Work permitted now
 - Maintain neutral project-office records.
-- Organize projects and workspace-management tasks.
-- Track decisions awaiting Philip.
-- Define how new projects should be added.
-- Archive superseded invented product interpretations rather than preserving them as active direction.
+- Organize approved projects under `projects/`.
+- Track workspace-level decisions in `project-office/AWAITING_PHILIP.md`.
+- Track project-specific decisions in each project's `AWAITING_PHILIP.md`.
+- Define and maintain project templates.
 - Prepare documentation-only branches and draft pull requests.
 
 ## Work not permitted now
@@ -38,9 +48,10 @@ Documentation correction and workspace reframing. The repository is being treate
 - Treating OCC-Eye as an acronym or product concept.
 - Reintroducing any invented OCC-Eye interpretation.
 - Selecting application architecture or external-service dependencies without a future approved project.
+- Adding unconfirmed employers, job applications, dates, accomplishments, contacts, secrets, credentials, or private user data.
 
 ## Latest update
-- Reframed the repository as Philip Butler Workspace.
-- Clarified that `occ-eye` is only a legacy repository name with no confirmed product meaning.
-- Removed invented OCC-Eye product interpretations from active project-office records.
-- Replaced product-development backlog items with workspace-management tasks.
+- Created a neutral `projects/` structure for approved projects.
+- Added the first approved project: Job Search and Resume Operations.
+- Added project templates for intake, status, and backlog items.
+- Preserved existing workspace-level `project-office/` records and clarified their separation from project-level records.
