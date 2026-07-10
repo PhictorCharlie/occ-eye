@@ -2,32 +2,32 @@
 
 ## Active backlog
 
-### 1. Define application tracker format
-- **Purpose:** Organize active applications without inventing employers, dates, statuses, or contacts.
+### 1. Populate application tracker with confirmed applications
+- **Purpose:** Organize active applications without inventing employers, dates, statuses, contacts, or application outcomes.
 - **Owner or Butler:** Project Manager Butler
-- **Status:** Not started
+- **Status:** Template created; awaiting Philip details
 - **Priority:** High
-- **Dependencies:** Philip confirms preferred format and provides confirmed application details.
-- **Acceptance criteria:** A project-approved tracker can capture employer, role, source, status, next follow-up, owner, and notes while avoiding unconfirmed or sensitive data.
-- **Next action:** Ask Philip to choose the tracking format and provide confirmed active applications.
+- **Dependencies:** Philip provides confirmed active applications and approves what details are safe to record.
+- **Acceptance criteria:** `APPLICATION_TRACKER.md` contains only confirmed employer, role, source, date, resume, status, follow-up, and notes details.
+- **Next action:** Ask Philip to provide confirmed active applications approved for tracking.
 
-### 2. Define resume-version inventory
-- **Purpose:** Make resume versions easy to identify and align with target roles.
+### 2. Populate resume-version inventory with confirmed versions
+- **Purpose:** Make resume versions easy to identify and align with target lanes.
 - **Owner or Butler:** Project Manager Butler
-- **Status:** Not started
+- **Status:** Template created; awaiting Philip details
 - **Priority:** High
-- **Dependencies:** Philip provides the existing resume versions or confirms naming conventions.
-- **Acceptance criteria:** Resume versions have clear names, intended target roles, last known update status, and outstanding edits.
-- **Next action:** Ask Philip which resume versions currently exist.
+- **Dependencies:** Philip provides existing resume versions, approved names, locations, formats, and known update status.
+- **Acceptance criteria:** `RESUME_INVENTORY.md` contains only confirmed resume names, target lanes, file locations, formats, update status, strengths, gaps, statuses, and next actions.
+- **Next action:** Ask Philip which resume versions currently exist and what each should be called.
 
-### 3. Organize target role lanes
+### 3. Prioritize related target lanes
 - **Purpose:** Separate the primary Service Operations Manager target from related ITSM, service delivery, operations management, incident management, program management, and project management targets.
 - **Owner or Butler:** Head Butler / Project Manager Butler
-- **Status:** Not started
+- **Status:** Initial target lanes documented; related priorities awaiting Philip
 - **Priority:** Medium
 - **Dependencies:** Philip confirms which related targets should be active versus secondary.
-- **Acceptance criteria:** Target lanes are documented with confirmed priority and any required resume emphasis.
-- **Next action:** Ask Philip to rank related target areas.
+- **Acceptance criteria:** `TARGET_LANES.md` documents confirmed priority and resume emphasis for each active lane.
+- **Next action:** Ask Philip to rank related target areas beyond the primary Service Operations Manager lane.
 
 ### 4. Define recruiter activity and follow-up process
 - **Purpose:** Track recruiter activity and follow-ups without storing sensitive private contact details.
