@@ -1,7 +1,7 @@
 # Job Search and Resume Operations Status
 
 ## Current phase
-Project setup and operating-structure definition.
+Project setup and operating-structure definition; initial tracker templates created.
 
 ## Workspace separation
 This file tracks only project-level status for Job Search and Resume Operations. Workspace-level status remains in `project-office/STATUS.md`.
@@ -14,6 +14,11 @@ This file tracks only project-level status for Job Search and Resume Operations.
 - Philip has global 24x7 service operations experience.
 - Philip has supported approximately 35 live accounts.
 - Resume versions and active applications need organization.
+
+## Recently completed
+- Created `RESUME_INVENTORY.md` as a structured template for confirmed resume versions.
+- Created `TARGET_LANES.md` with Service Operations Manager as the primary lane and related lane priorities awaiting Philip.
+- Created `APPLICATION_TRACKER.md` as a structured template for confirmed applications.
 
 ## What is unknown
 - Which resume versions currently exist.
@@ -34,6 +39,7 @@ This file tracks only project-level status for Job Search and Resume Operations.
 - Rewriting resume claims without Philip-provided source material.
 
 ## Next actions
-1. Philip confirms the preferred application and resume-version tracking format.
-2. Project Manager Butler creates or updates project trackers only from confirmed information.
-3. Head Butler reviews any unresolved decisions and keeps project records separated from workspace records.
+1. Philip provides confirmed resume versions, approved names, locations, formats, and update status.
+2. Philip provides confirmed active applications approved for tracking.
+3. Philip ranks related target lanes beyond Service Operations Manager.
+4. Project Manager Butler populates project trackers only from confirmed information.
