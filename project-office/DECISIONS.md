@@ -1,15 +1,23 @@
-# OCC-Eye Decisions
+# Philip Butler Workspace Decisions
 
 ## Confirmed decisions
-No product, architecture, scope, or implementation decisions have been approved yet.
+
+### 2026-07-10 — Treat `occ-eye` as a legacy repository name
+- **Decision maker:** Philip
+- **Decision:** `occ-eye` is a legacy repository name with no confirmed product meaning.
+- **Context:** Philip does not remember creating or naming OCC-Eye, and OCC-Eye was never an app idea.
+- **Consequences:** Documentation must not assign invented meanings to OCC-Eye or treat it as an application concept.
+- **Follow-up actions:** Reframe project documentation as Philip Butler Workspace and remove invented product interpretations from active records.
+
+### 2026-07-10 — Use “Philip Butler Workspace” as the working title
+- **Decision maker:** Philip
+- **Decision:** Use the working title “Philip Butler Workspace” inside project documentation.
+- **Context:** The repository should be a neutral Butler and project-office workspace.
+- **Consequences:** Project-office records and the project brief should use this working title while acknowledging `occ-eye` as the legacy repository name.
+- **Follow-up actions:** Keep Butler role files and project-office structure intact.
 
 ## Proposed but not approved
-
-### Provisional product recommendation
-- **Proposal:** Treat OCC-Eye as Operations Command Center Eye: a situational-awareness and triage dashboard for operational events, statuses, risks, and actions.
-- **Reason:** The name "Eye" suggests visibility, and the current repository operating model emphasizes status, risks, dependencies, and action tracking.
-- **Status:** Awaiting Philip.
-- **Date proposed:** 2026-07-10
+No active product, architecture, scope, or implementation proposals are pending.
 
 ## Decision log format
 Future decisions should include:

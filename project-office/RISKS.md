@@ -1,43 +1,35 @@
-# OCC-Eye Risks
+# Philip Butler Workspace Risks
 
 ## Active risks
 
-### R1. Undefined product purpose
-- **Severity:** High
-- **Likelihood:** High
-- **Owner or butler:** Product Butler
-- **Impact:** Implementation could solve the wrong problem or require major rework.
-- **Mitigation:** Do not create application code until Philip approves product direction, target user, core workflow, and MVP boundaries.
-- **Status:** Open
-
-### R2. Ambiguous acronym and product name
-- **Severity:** Medium
-- **Likelihood:** High
-- **Owner or butler:** Product Butler
-- **Impact:** Multiple plausible interpretations could lead to conflicting architecture and UX decisions.
-- **Mitigation:** Capture interpretations clearly and request Philip's decision.
-- **Status:** Open
-
-### R3. Unknown data sensitivity
-- **Severity:** High
-- **Likelihood:** Medium
-- **Owner or butler:** Product Butler / Development Butler
-- **Impact:** Poor choices around storage, uploads, exports, access control, or retention could create privacy or compliance issues.
-- **Mitigation:** Determine user-provided data, sensitivity, storage, and access requirements before architecture selection.
-- **Status:** Open
-
-### R4. Premature technical decisions
+### R1. Legacy repository name may continue to imply a product
 - **Severity:** Medium
 - **Likelihood:** Medium
+- **Owner or butler:** Head Butler
+- **Impact:** Future work could accidentally reintroduce invented OCC-Eye meanings or assume an application exists.
+- **Mitigation:** State in active documentation that `occ-eye` is a legacy repository name with no confirmed product meaning.
+- **Status:** Open
+
+### R2. Workspace scope may become unclear
+- **Severity:** Medium
+- **Likelihood:** Medium
+- **Owner or butler:** Project Manager Butler
+- **Impact:** The workspace could collect unrelated notes, tasks, and project ideas without clear ownership or next actions.
+- **Mitigation:** Define a lightweight intake process for adding new projects and keep backlog/status records current.
+- **Status:** Open
+
+### R3. Awaiting-Philip decisions could become mixed with general tasks
+- **Severity:** Medium
+- **Likelihood:** Medium
+- **Owner or butler:** Project Manager Butler
+- **Impact:** Philip-only decisions may be hidden in status text or backlog items, slowing progress.
+- **Mitigation:** Keep `AWAITING_PHILIP.md` limited to decisions only Philip can make.
+- **Status:** Open
+
+### R4. Premature application work
+- **Severity:** High
+- **Likelihood:** Low
 - **Owner or butler:** Head Butler / Development Butler
-- **Impact:** The project may adopt unnecessary dependencies or a stack unsuitable for the approved workflow.
-- **Mitigation:** Defer stack and integration choices until product scope is approved.
-- **Status:** Open
-
-### R5. No testable acceptance criteria yet
-- **Severity:** Medium
-- **Likelihood:** High
-- **Owner or butler:** QA Butler
-- **Impact:** Future implementation cannot be objectively verified.
-- **Mitigation:** Product Butler must define user stories and acceptance criteria before development begins.
+- **Impact:** Code or architecture could be created for a product Philip has not requested.
+- **Mitigation:** Do not create application code unless Philip later approves a specific application project.
 - **Status:** Open
